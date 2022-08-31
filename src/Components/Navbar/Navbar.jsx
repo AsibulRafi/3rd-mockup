@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { HashLink as Link } from "react-router-hash-link";
 import logo from "../../assets/logo.png";
 import "./style.css";
