@@ -1,0 +1,124 @@
+.footer__padding {
+  background-color: #030f26;
+  padding: 5rem 0rem;
+}
+.footer {
+  position: relative;
+  background: #fff;
+  padding: 10rem 15rem;
+  @media screen and (max-width: 1600px) {
+    padding: 10rem 5rem;
+  }
+  @include breakpoint-down(medium) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(small) {
+    padding: 10rem 2rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media screen and (max-width: 1400px) {
+      flex-direction: column-reverse;
+    }
+    &-risk {
+      flex-basis: 40%;
+      margin-right: 10rem;
+      @media screen and (max-width: 1400px) {
+        margin-right: 0rem;
+        margin-top: 5rem;
+      }
+      h2 {
+        font-size: 2rem;
+        font-family: "Lato", sans-serif;
+        margin-bottom: 2rem;
+        @include breakpoint-down(small) {
+          font-size: 1.8rem;
+        }
+      }
+      p {
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        color: #00001b;
+        margin-bottom: 2rem;
+        @include breakpoint-down(small) {
+          font-size: 14px;
+        }
+      }
+    }
+    &-links {
+      flex-basis: 50%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5rem;
+      justify-items: center;
+      align-self: center;
+      @include breakpoint-down(medium) {
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include breakpoint-down(small) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      &-single {
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        width: 100%;
+        height: 100%;
+        @include breakpoint-down(medium) {
+          margin-right: 3rem;
+        }
+        @include breakpoint-down(small) {
+          margin-right: 0rem;
+          flex-direction: column;
+        }
+        h3 {
+          font-family: "Lato", sans-serif;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: 0.03em;
+          color: #333333;
+          margin-bottom: 1rem;
+        }
+        a {
+          font-family: "Lato", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 25px;
+          letter-spacing: 0.03em;
+          color: #333333;
+        }
+      }
+    }
+  }
+  .copyright {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #00001b;
+    padding: 10px 0px;
+    h4 {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+    }
+  }
+}

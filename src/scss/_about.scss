@@ -1,0 +1,123 @@
+.about {
+  background-color: #010326;
+  &__wrapper {
+    padding: 8rem 30rem;
+    @media screen and (max-width: 1600px) {
+      padding: 8rem 5rem;
+    }
+    @include breakpoint-down(medium) {
+      padding: 8rem 4rem;
+    }
+    @include breakpoint-down(small) {
+      padding: 5rem 2rem;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: row;
+    @include breakpoint-down(medium) {
+      flex-direction: column;
+    }
+    &-1 {
+      margin-right: 10rem;
+      flex-basis: 50%;
+      @include breakpoint-down(medium) {
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+      }
+    }
+    &-2 {
+      flex-basis: 50%;
+    }
+    p {
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.03em;
+      color: #e0e0e0;
+      margin-bottom: 2rem;
+      @include breakpoint-down(medium) {
+        font-size: 16px;
+      }
+      @include breakpoint-down(small) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+.contact {
+  background-color: #fff;
+  padding: 10rem 30rem;
+  margin-bottom: 10rem;
+  @media screen and (max-width: 1600px) {
+    padding: 10rem 5rem;
+  }
+  @include breakpoint-down(medium) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(small) {
+    padding: 8rem 2rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    @include breakpoint-down(medium) {
+      flex-direction: column;
+    }
+    &-info {
+      flex-basis: 40%;
+      margin-right: 5rem;
+      @include breakpoint-down(medium) {
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+      }
+      &__heading {
+        width: 320px;
+        margin-bottom: 3rem;
+        @include breakpoint-down(medium) {
+          width: 100%;
+        }
+        h2 {
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 50px;
+          letter-spacing: 0.05em;
+
+          color: #010326;
+          margin: 0;
+        }
+        hr {
+          border: 1px dashed #c4c4c4;
+        }
+      }
+      &-single {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 4rem;
+        svg {
+          font-size: 4rem;
+          color: #05122b;
+          margin-right: 2rem;
+        }
+        h4 {
+          font-family: "Lato", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+          color: #010326;
+        }
+      }
+    }
+    &-img {
+      flex-basis: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+export { default as About } from "./About";
+export { default as Accounts } from "./Accounts";
+export { default as CFD } from "./CFD";
+export { default as FAQ } from "./FAQ";
+export { default as Forex } from "./Forex";
+export { default as Home } from "./Home";
+export { default as KYC } from "./KYC";
+export { default as Platform } from "./Platform";
+export { default as Privacy } from "./Privacy";
+export { default as Signals } from "./Signals";
+export { default as Terms } from "./Terms";
+export { default as TradingGlossary } from "./TradingGlossary";
+export { default as Spreads } from "./Spreads";
