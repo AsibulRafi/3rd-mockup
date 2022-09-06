@@ -155,10 +155,10 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <a href="/">
+              <a href="https://client.digitexmarkets.com/register">
                 <button className="header__oa-btn">Open Account</button>
               </a>
-              <a href="/">
+              <a href="https://client.digitexmarkets.com/">
                 <button className="header__lg-btn">Login</button>
               </a>
             </li>

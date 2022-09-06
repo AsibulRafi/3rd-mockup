@@ -92,9 +92,9 @@ const CFD = () => {
               of $2,200.
             </p>
             <p>
-              No Name 1 offers CFDs on Commodities, Indices, and Shares on our
-              MetaTrader 4 trading platform, bringing advanced trading features
-              to your CFD trades.
+              Digitexmarkets offers CFDs on Commodities, Indices, and Shares on
+              our MetaTrader 4 trading platform, bringing advanced trading
+              features to your CFD trades.
             </p>
           </div>
         </div>

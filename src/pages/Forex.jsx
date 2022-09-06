@@ -55,8 +55,8 @@ const Forex = () => {
               24 hours a day but it has holidays on weekends.
             </p>
             <p>
-              Look for additional Forex information at the No name 1 learning
-              section.
+              Look for additional Forex information at the Digitexmarkets
+              learning section.
             </p>
           </div>
           <div className="forex__content-img">

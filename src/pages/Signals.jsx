@@ -13,8 +13,8 @@ const Signals = () => {
         <div className="signals__content">
           <div className="signals__content-text">
             <p>
-              At No Name 1 we provide the best Forex signals by working closely
-              with technology providers who are at the forefront of the
+              At Digitexmarkets we provide the best Forex signals by working
+              closely with technology providers who are at the forefront of the
               industry.
             </p>
             <button>Hot Signal</button>

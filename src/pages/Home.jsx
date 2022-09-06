@@ -189,16 +189,16 @@ const Home = () => {
               </div>
               <div className="who__content-info-text">
                 <p>
-                  No Name 1 was established by industry experts with many years
-                  of broad and hands-on experience in the financial markets. Our
-                  mission is to provide the best services and creative solutions
-                  to our clients and help them grow together in this fast paced
-                  global financial market.
+                  Digitexmarkets was established by industry experts with many
+                  years of broad and hands-on experience in the financial
+                  markets. Our mission is to provide the best services and
+                  creative solutions to our clients and help them grow together
+                  in this fast paced global financial market.
                 </p>
                 <p>
-                  No Name 1 promises to provide an optimal trading environment
-                  with a stable system for every trade and to provide our
-                  clients with the best possible assistance.
+                  Digitexmarkets promises to provide an optimal trading
+                  environment with a stable system for every trade and to
+                  provide our clients with the best possible assistance.
                 </p>
                 <p>
                   We aim to achieve this by providing the highest standards of

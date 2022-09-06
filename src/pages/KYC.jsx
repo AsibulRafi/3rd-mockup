@@ -16,17 +16,18 @@ const KYC = () => {
           financial fraud and terrorist activity.
         </p>
         <p>
-          No Name 1 holds a zero tolerance fraud policy and is taking all
+          Digitexmarkets holds a zero tolerance fraud policy and is taking all
           measures possible to prevent it. Any fraudulent activity will be
           documented and all related accounts to it will be immediately closed.
           All funds in these accounts will be forfeited.
         </p>
         <p>
-          Prevention: No Name 1 aims to ensure the integrity of any sensitive
-          data it obtains, such as your account information and the transactions
-          you make, using a variety of security measures and fraud controls.
-          Securing your electronic transactions requires us to be provided with
-          certain data from you, including your preferred deposit method.
+          Prevention: Digitexmarkets aims to ensure the integrity of any
+          sensitive data it obtains, such as your account information and the
+          transactions you make, using a variety of security measures and fraud
+          controls. Securing your electronic transactions requires us to be
+          provided with certain data from you, including your preferred deposit
+          method.
         </p>
         <div className="kyc__flex">
           <div className="kyc__flex-content">
@@ -71,7 +72,7 @@ const KYC = () => {
         <hr />
         <h2>How do I know my documents are safe with you?</h2>
         <p>
-          No Name 1 holds the security of documentation with the highest
+          Digitexmarkets holds the security of documentation with the highest
           priority and treats all documents it receives with utmost respect and
           confidentiality. All files we obtain are fully protected using the
           highest level possible of encryption at every step of the review
@@ -82,7 +83,7 @@ const KYC = () => {
         <p>
           Please scan your documents, or take a high-quality digital camera
           picture, save the images as jpegs, then send it to us via mail to
-          support@no name 1 .com
+          support@digitexmarkets.com
         </p>
       </section>
     </>

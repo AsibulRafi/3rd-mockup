@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="copyright">
-            <h4>© 2022 ALL right reserved No Name 1</h4>
+            <h4>© 2022 ALL right reserved Digitexmarkets</h4>
           </div>
         </div>
       </section>

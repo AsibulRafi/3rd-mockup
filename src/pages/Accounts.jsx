@@ -299,7 +299,7 @@ const Accounts = () => {
           <h2>
             Steps for opening a Trading Profile
             <br /> Opening a trading account at
-            <br /> No Name 1
+            <br /> Digitexmarkets
           </h2>
         </div>
         <div className="steps__content">
@@ -348,7 +348,9 @@ const Accounts = () => {
           <div className="funding__heading">
             <h2>Account Funding</h2>
             <div className="line"></div>
-            <p>There are 3 different ways to fund your No Name 1 account:</p>
+            <p>
+              There are 3 different ways to fund your Digitexmarkets account:
+            </p>
           </div>
           <div className="funding__content">
             <div className="funding__content-single">
@@ -452,7 +454,7 @@ const Accounts = () => {
               </p>
               <p style={{ color: "#fff" }}>
                 For further inquiries regarding funding please contact us at
-                support@no name 1.com or through our live chat. In case you
+                support@digitexmarkets.com or through our live chat. In case you
                 would like to ask anything related to putting money on the Live
                 Account, feel free to get in touch with the team using the live
                 chat or email feature.
@@ -467,8 +469,8 @@ const Accounts = () => {
             <h2>Segregated Account</h2>
             <div className="line"></div>
             <p>
-              The unique No Name 1 Account allows our clients to conduct trades
-              perfectly protects them
+              The unique Digitexmarkets Account allows our clients to conduct
+              trades perfectly protects them
               <br /> out of slow transaction times or information and payments
               errors.
             </p>
