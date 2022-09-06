@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "../Components/Banner";
 import hero from "../assets/glossaryHero.png";
 import Index from "../Components/Trading";
 const TradingGlossary = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [selectedLetter, setSelectedLetter] = useState("a");
 
   const alpabet = [

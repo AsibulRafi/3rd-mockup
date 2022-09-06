@@ -2,9 +2,8 @@ import React from "react";
 import Banner from "../Components/Banner";
 import hero from "../assets/aboutHero.png";
 import contact from "../assets/contact.png";
-import { AiOutlineClockCircle, AiOutlineMail } from "react-icons/ai";
-import { BiPhoneCall } from "react-icons/bi";
-import { IoLocationSharp } from "react-icons/io5";
+import { AiOutlineMail } from "react-icons/ai";
+
 const About = () => {
   return (
     <>
@@ -59,19 +58,7 @@ const About = () => {
             </div>
             <div className="contact__content-info-single">
               <AiOutlineMail />
-              <h4>Email: support@noname1.com</h4>
-            </div>
-            <div className="contact__content-info-single">
-              <AiOutlineClockCircle />
-              <h4>Working hours: Monday to Friday: 9:30-21:00 GMT</h4>
-            </div>
-            <div className="contact__content-info-single">
-              <BiPhoneCall />
-              <h4>Telephone number: +44123456789</h4>
-            </div>
-            <div className="contact__content-info-single">
-              <IoLocationSharp />
-              <h4>Location: 78 Guild Rd, London SE7 8HW </h4>
+              <h4>Email: support@digitexmarkets.com</h4>
             </div>
           </div>
           <div className="contact__content-img">

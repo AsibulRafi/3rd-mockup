@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Banner from "../Components/Banner";
 import hero from "../assets/faqhero.png";
 import { FiPlus, FiMinus } from "react-icons/fi";
 const FAQ = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [clicked, setClicked] = useState(false);
 
   const toggle = (index) => {

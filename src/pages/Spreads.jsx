@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../Components/Banner";
 import hero from "../assets/spredshero.png";
 import hand from "../assets/spreds.png";
 const Spreads = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Banner

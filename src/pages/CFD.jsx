@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../Components/Banner";
 import hero from "../assets/cfdhero.png";
 import cfdImg1 from "../assets/cfdImg1.png";
 import cfdImg2 from "../assets/cfdImg2.png";
 const CFD = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Banner img={hero} text="CFD Trading" />

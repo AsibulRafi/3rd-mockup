@@ -26,7 +26,7 @@
       width: 400px;
       left: 50%;
       transform: translateX(-50%);
-      background-color: #010326;
+      background-color: #030f26;
       font-weight: 400;
       font-size: 40px;
       line-height: 50px;
@@ -57,136 +57,74 @@
       }
     }
   }
-  .pricing {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: flex-start;
-
-    text-align: center;
-    @include breakpoint-down(medium) {
-      flex-direction: column;
-      align-items: center;
-    }
-    @include breakpoint-down(small) {
-      flex-direction: column;
-      align-items: center;
-    }
-    .classic {
-      .pricing__card-heading {
-        h2 {
-          color: #ffffff !important;
-        }
-        p {
-          color: #ffffff !important;
-        }
-        h3 {
-          color: #ffffff !important;
-        }
-      }
-      .info__box {
-        svg {
-          color: #fff !important;
-        }
-        p {
-          color: #fff !important;
-        }
-      }
-      .pricing__card-btn {
-        border: 2px solid #fff;
-        background: #ffffff !important;
-        color: #000;
-        &:hover {
-          background: transparent;
-          color: #04339a;
-        }
-      }
-    }
-    &__card {
-      border-radius: 30px;
-      &:not(:last-child) {
-        margin-right: 5rem;
-        @include breakpoint-down(medium) {
-          margin-right: 0rem;
-          margin-bottom: 5rem;
-        }
-      }
-      p {
-        font-size: 14px;
-        color: #fff;
-        margin-block: 1rem;
-      }
-      &-btn {
-        display: inline-block;
-        background: #04339a;
-        color: #fff;
-        border: 2px solid #04339a;
-        padding: 2rem 7rem;
-        margin: 4rem 1rem;
-        font-family: "Lato", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 30px;
-        text-transform: uppercase;
-        &:hover {
-          background: transparent;
-          color: #04339a;
-        }
-        @include breakpoint-down(small) {
-          padding: 2rem 3rem;
-          font-size: 16px;
-        }
-      }
-      &-heading {
-        padding: 4rem;
-        h2 {
-          font-family: "PT Serif", sans-serif;
-          font-size: 4rem;
-          font-weight: 700;
-          color: #04339a;
-          @include breakpoint-down(small) {
-            font-size: 3rem;
-          }
-        }
-        p {
-          font-family: "Lato", sans-serif;
+  &__types {
+    margin-block: 5rem;
+    overflow: auto;
+    &-table {
+      position: relative;
+      overflow: auto;
+      width: 100%;
+      color: #fff;
+      border-spacing: 0;
+      border: 2px solid #fff;
+      text-align: center;
+      thead {
+        background-color: #202a3d;
+        th {
+          padding: 2rem 0.5rem;
+          font-size: 20px;
           font-weight: 400;
-          font-size: 17px;
-          color: #000;
-          @include breakpoint-down(small) {
-            font-size: 15px;
-          }
-        }
-        h3 {
-          font-size: 3.4rem;
-          font-weight: 500;
-          color: #04339a;
-          @include breakpoint-down(small) {
-            font-size: 3rem;
+          font-family: "PT Serif", sans-serif;
+          @media screen and (max-width: 800px) {
+            font-size: 16px;
           }
         }
       }
-      &-info {
-        padding: 0rem 2rem;
-        .info__box {
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-start;
-          align-items: flex-start;
-          text-align: left;
-          svg {
-            font-size: 3rem;
-            margin-right: 1rem;
-            color: #04339a;
-            margin-top: 1.5rem;
+      tbody {
+        td {
+          border-bottom: 2px solid #fff;
+          padding: 2rem 0.5rem;
+          font-size: 16px;
+          @media screen and (max-width: 800px) {
+            font-size: 14px;
           }
-          p {
-            font-family: "Lato", sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 40px;
-            color: #00001b;
+        }
+        th {
+          border-bottom: 2px solid #fff;
+          padding: 2rem 0.5rem;
+          font-size: 20px;
+          font-family: "Lato", sans-serif;
+          font-weight: 700;
+          @media screen and (max-width: 800px) {
+            font-size: 16px;
+          }
+        }
+        svg {
+          font-size: 3rem;
+          @media screen and (max-width: 800px) {
+            font-size: 2rem;
+          }
+        }
+        .accounts-types-btn {
+          padding: 1.5rem 1rem;
+          background-color: #fff;
+          border: 2px solid #fff;
+          color: #000;
+          font-family: "Lato", sans-serif;
+          font-weight: 500;
+          font-size: 16px;
+          transition: all 0.3s ease-in-out;
+          @media screen and (max-width: 1300px) {
+            font-size: 14px;
+            padding: 1.5rem 0rem;
+          }
+          @media screen and (max-width: 800px) {
+            font-size: 10px;
+            padding: 0.5rem 0rem;
+          }
+          &:hover {
+            background-color: transparent;
+            color: #fff;
           }
         }
       }

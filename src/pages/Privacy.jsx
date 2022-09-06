@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../Components/Banner";
 import hero from "../assets/privacyHero.png";
 const Privacy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Banner img={hero} text="Privacy Policy" />

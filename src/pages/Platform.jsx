@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../Components/Banner";
 import hero from "../assets/tradingHero.png";
 import webTrader from "../assets/webTrader.png";
 import webTraderPlatform from "../assets/webTraderPlatform.png";
 
 const Platform = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Banner img={hero} text="Trading Platforms" />

@@ -16,179 +16,281 @@ const Accounts = () => {
             one of the most advanced trading platforms available..
           </p>
         </div>
-        <div className="pricing">
-          {/* Pricing Card */}
-          <div className="pricing__card" style={{ backgroundColor: "#ffffff" }}>
-            <div className="pricing__card-heading">
-              {/* Heading */}
-              <h2>Mini</h2>
-              <p>
-                Basic Trading for
-                <br />
-                Beginners
-              </p>
-              <h3>$500</h3>
-            </div>
-            {/* Info */}
-            <div className="pricing__card-info">
-              <div className="info__box">
-                <BsCheck />
-                <p>Online Chat Support</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Platforms: MT4﹠Mobile</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>
-                  Instruments: Forex, <br />
-                  CFDs﹠Commodities
-                </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Free E-book </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Individual Competitive Spreads﹠Commissions </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Access to Breaking News﹠ Market Research</p>
-              </div>
-            </div>
-            <a href="/">
-              <button className="pricing__card-btn">Open Account</button>
-            </a>
-          </div>
-          {/* Pricing Card */}
-          <div
-            className="pricing__card classic"
-            style={{ backgroundColor: "#04339A" }}
-          >
-            <div className="pricing__card-heading">
-              {/* Heading */}
-              <h2>Classic</h2>
-              <p>
-                For Skilled <br />
-                Investors
-              </p>
-              <h3>$5,000</h3>
-            </div>
-            {/* Info */}
-            <div className="pricing__card-info">
-              <div className="info__box">
-                <BsCheck />
-                <p>Online Chat Support</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Platforms: MT4﹠Mobile</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>
-                  Instruments: Forex, <br />
-                  CFDs﹠Commodities
-                </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Free E-book </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Individual Competitive Spreads﹠Commissions </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Access to Breaking News﹠ Market Research</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Online Phone Support </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Real-Time Trading Signals </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Trading Education Program</p>
-              </div>
-            </div>
-            <a href="/">
-              <button className="pricing__card-btn">Open Account</button>
-            </a>
-          </div>
 
-          {/* Pricing Card */}
-          <div className="pricing__card" style={{ backgroundColor: "#ffffff" }}>
-            <div className="pricing__card-heading">
-              {/* Heading */}
-              <h2>Premium</h2>
-              <p>
-                Advanced Trading For <br />
-                Experienced Investors
-              </p>
-              <h3>$20,000</h3>
-            </div>
-            {/* Info */}
-            <div className="pricing__card-info">
-              <div className="info__box">
-                <BsCheck />
-                <p>Online Chat Support</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Platforms: MT4﹠Mobile</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>
-                  Instruments: Forex, <br />
-                  CFDs﹠Commodities
-                </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Free E-book </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Individual Competitive Spreads﹠Commissions </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Access to Breaking News﹠ Market Research</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Online Phone Support </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Real-Time Trading Signals </p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Trading Education Program</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Account Executive Team</p>
-              </div>
-              <div className="info__box">
-                <BsCheck />
-                <p>Available 24/7 Trade Mentor</p>
-              </div>
-            </div>
-            <a href="/">
-              <button className="pricing__card-btn">Open Account</button>
-            </a>
-          </div>
+        <div className="accounts__types">
+          <table className="accounts__types-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th scope="col">CLASSIC</th>
+                <th scope="col">GOLD</th>
+                <th scope="col">PRIME</th>
+                <th scope="col">ECN GOLD</th>
+                <th scope="col">ECN VIP</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Minimum Account size</td>
+                <th>€ 500</th>
+                <th>€ 5000</th>
+                <th>€ 50,000</th>
+                <th>€ 250,000</th>
+                <th>CALL US</th>
+              </tr>
+              <tr>
+                <td>Spreads from</td>
+                <td>3.3 pips</td>
+                <td>2.2 pips</td>
+                <td>1.8 pips</td>
+                <td>1.0 pips</td>
+                <td>0.0 pips</td>
+              </tr>
+              <tr>
+                <td>Leverage</td>
+                <td>up to 1:30</td>
+                <td>up to 1:100</td>
+                <td>up to 1:200</td>
+                <td>up to 1:350</td>
+                <td>up to 1:500</td>
+              </tr>
+              <tr>
+                <td>Stop out level</td>
+                <td>up to 75%</td>
+                <td>up to 60%*</td>
+                <td>up to 45%*</td>
+                <td>up to 30%*</td>
+                <td>up to 15%*</td>
+              </tr>
+              <tr>
+                <td>Minimum Deal size</td>
+                <td>0.01 lot</td>
+                <td>0.05 lot</td>
+                <td>0.025 lot</td>
+                <td>0.50 lot</td>
+                <td>2.00 lot</td>
+              </tr>
+              <tr>
+                <td>Financial Instruments</td>
+                <td>
+                  Forex, Commodities,
+                  <br />
+                  Indices,
+                  <br />
+                  Cryptocurrencies
+                </td>
+                <td>
+                  Forex, Commodities,
+                  <br />
+                  Indices,
+                  <br />
+                  Cryptocurrencies
+                </td>
+                <td>
+                  Forex, Commodities,
+                  <br />
+                  Indices,
+                  <br />
+                  Cryptocurrencies
+                </td>
+                <td>
+                  Forex, Commodities,
+                  <br />
+                  Indices, Cryptocurrencies
+                  <br />
+                  Bond's, stocks
+                </td>
+                <td>
+                  Forex, Commodities, Indices,
+                  <br />
+                  Cryptocurrencies, Bond's,
+                  <br />
+                  Europe&amp;Us stocks, Cannabis <br />
+                  stocks
+                </td>
+              </tr>
+              <tr>
+                <td>1 on 1 Support (per month)</td>
+                <td>up to 1</td>
+                <td>up to 2</td>
+                <td>up to 4</td>
+                <td>up to 6</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Technical Analysis</td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>Trading Signals</td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>Daily Market Review</td>
+                <td></td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>Margin call - Email</td>
+                <td></td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>Margin call - SMS**</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>Daily Live Review</td>
+                <td></td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>Meeting Session</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>Senior Account Executives Direct Line</td>
+                <td></td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+                <td>
+                  <BsCheck />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  * For Professional Clients Only **
+                  <br />
+                  As this service depends on third party <br />
+                  providers, the availability of this service
+                  <br />
+                  is not guaranteed.
+                </td>
+                <td>
+                  <a
+                    href="https://client.digitexmarkets.com/register"
+                    className="accounts-types-btn"
+                  >
+                    OPEN ACCOUNT
+                  </a>
+                </td>
+                <td>
+                  <a
+                    href="https://client.digitexmarkets.com/register"
+                    className="accounts-types-btn"
+                  >
+                    OPEN ACCOUNT
+                  </a>
+                </td>
+                <td>
+                  <a
+                    href="https://client.digitexmarkets.com/register"
+                    className="accounts-types-btn"
+                  >
+                    OPEN ACCOUNT
+                  </a>
+                </td>
+                <td>
+                  <a
+                    href="https://client.digitexmarkets.com/register"
+                    className="accounts-types-btn"
+                  >
+                    OPEN ACCOUNT
+                  </a>
+                </td>
+                <td>
+                  <a
+                    href="https://client.digitexmarkets.com/register"
+                    className="accounts-types-btn"
+                  >
+                    OPEN ACCOUNT
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
 
